@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Silent Voice</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login_title">Account Login</string>
+    <string name="tiles">Tiles</string>
+    <string name="first_item_n_second_item_n_third_item">♦ First item ♦ Second item ♦ Third item</string>
+    <string name="re_enter">Re-Enter</string>
+    <string name="title_activity_test">Test</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_main_test">Main Menu</string>
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flavienlaurent.discrollview.lib.DiscrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_animated_discroll_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.flavienlaurent.discrollview.lib.DiscrollViewContent
+        android:id="@+id/discroll_view_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/svlogo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+
+            android:layout_marginTop="16dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/silentvoice21"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromLeft|fromBottom" />
+
+
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="@android:color/white"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="25dp"
+            android:text="Silent Voice..."
+            android:textColor="@android:color/black"
+            android:textSize="68sp"
+            tools:visibility="gone" />
+
+        <View
+            android:id="@+id/animated_custom_view_color"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_fromBgColor="#3cac32"
+            discrollve:discrollve_threshold="0.3"
+            discrollve:discrollve_toBgColor="#0869a6" />
+
+
+        <LinearLayout
+            android:id="@+id/android_gridview_example"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+            <com.andexert.library.RippleView
+                android:id="@+id/more"
+                rv_centered="true"
+                android:layout_width="match_parent"
+
+                android:layout_height="117dp"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp">
+
+
+                <GridView
+                    android:id="@+id/grid_view_image_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnWidth="90dp"
+                    android:gravity="center"
+                    android:numColumns="auto_fit" />
+            </com.andexert.library.RippleView>
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="serif"
+            android:text="Features:"
+            android:textColor="#004D40"
+            android:textSize="24sp"
+            android:textStyle="bold"
+             />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            android:layout_margin="10dp"
+            android:background="#80CBC4"
+            android:padding="10dp"
+            android:text="@string/first_item_n_second_item_n_third_item"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:visibility="visible"
+            />
+
+        <View
+            android:id="@+id/animated_color"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            discrollve:discrollve_fromBgColor="#ac7b32"
+            discrollve:discrollve_toBgColor="#7b1d1d" />
+
+
+
+    </com.flavienlaurent.discrollview.lib.DiscrollViewContent>
+
+</com.flavienlaurent.discrollview.lib.DiscrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1582866732",
+    "firebase_url": "https://silentvoice-9e8a4.firebaseio.com",
+    "project_id": "silentvoice-9e8a4",
+    "storage_bucket": "silentvoice-9e8a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1582866732:android:cce58c5c23b2d8ce",
+        "android_client_info": {
+          "package_name": "com.example.mubashir.silentvoicefinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1582866732-kss06acejh90mhtla1l2l9hp3vkcs0gt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mubashir.silentvoicefinal",
+            "certificate_hash": "45e41988c1b145f0181353b05ffa303fe17696fe"
+          }
+        },
+        {
+          "client_id": "1582866732-pc0gi488q8688lfggsea574t2hbj86sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAbrZQkO-YmDhh8dBA2-vxB2svBYkLQPY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1582866732-pc0gi488q8688lfggsea574t2hbj86sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
